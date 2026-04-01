@@ -7,17 +7,17 @@ import { UpdateDateColumn } from 'typeorm';
 @Entity({ name: 'tb_postagem' })
 export class Postagem {
     
-    @PrimaryGeneratedColumn() // Cria uma chave primaria e auto increment
+    @PrimaryGeneratedColumn() 
     id!: number;
 
-    @IsNotEmpty() // verifica se o campo está vazio
-    @Column({length:100, nullable: false}) // Cria uma coluna chamada titulo, com 100 caracteres e não pode ser nulo.
+    @IsNotEmpty() 
+    @Column({length:100, nullable: false}) 
     titulo!: string;
 
-    @IsNotEmpty() // verifica se o campo está vazio
+    @IsNotEmpty() 
     @Column({length:1000, nullable: false})
     texto!: string;
 
-    @UpdateDateColumn() // cria uma coluna chamada data atualização da postagem
+    @UpdateDateColumn()
     data!: Date;
 }

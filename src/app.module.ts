@@ -15,9 +15,9 @@ import { PostagemModule } from './postagem/postagem.module';
       entities: [Postagem],
       synchronize: true,
     }),
-    PostagemModule, // Faltava adicionar isso aqui!
+    PostagemModule,
   ],
-  controllers: [], // Removido AppController conforme o Cookbook
-  providers: [],   // Removido AppService conforme o Cookbook
+  controllers: [], 
+  providers: [],   
 })
 export class AppModule {}
