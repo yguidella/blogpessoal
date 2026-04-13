@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable prettier/prettier */
 import { IsNotEmpty } from 'class-validator';
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne, UpdateDateColumn } from 'typeorm';
 import { Tema } from "../../tema/entities/tema.entity"; 
