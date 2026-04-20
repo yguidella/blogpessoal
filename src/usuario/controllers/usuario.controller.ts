@@ -10,12 +10,17 @@ import { ApiBearerAuth, ApiTags } from "@nestjs/swagger";
 export class UsuarioController {
     constructor(private readonly usuarioService: UsuarioService) {}
 
-    @UseGuards(JwtAuthGuard)
+    /*@UseGuards(JwtAuthGuard)
     @Get('/all')
     @HttpCode(HttpStatus.OK)
     findAll(): Promise<Usuario[]> {
         return this.usuarioService.findAll();
+    }*/
+    @Get('/all')
+    findAll(): Promise<Usuario[]> {
+    return this.usuarioService.findAll();
     }
+
 
     @UseGuards(JwtAuthGuard)
     @Get('/:id')
