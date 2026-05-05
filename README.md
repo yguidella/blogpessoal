@@ -8,7 +8,7 @@
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
 
-## 💡 Descrição
+## 📌 Descrição
 
 API REST desenvolvida durante o bootcamp da Generation Brasil com foco em boas práticas de desenvolvimento back-end, organização em camadas e documentação de endpoints.
 
@@ -69,6 +69,6 @@ npm run start:dev
 
 Configure um banco MySQL e ajuste as credenciais no projeto (arquivo de configuração do TypeORM).
 
-## 📌 Objetivo
+## 💡 Objetivo
 
 Projeto desenvolvido para prática de construção de APIs REST, utilizando boas práticas e ferramentas modernas do ecossistema Node.js.
