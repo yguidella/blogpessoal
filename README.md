@@ -8,7 +8,7 @@
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white)
 
-## Descrição:
+## 💡 Descrição
 
 API REST desenvolvida durante o bootcamp da Generation Brasil com foco em boas práticas de desenvolvimento back-end, organização em camadas e documentação de endpoints.
 
