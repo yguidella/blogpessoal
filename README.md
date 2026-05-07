@@ -72,3 +72,7 @@ Configure um banco MySQL e ajuste as credenciais no projeto (arquivo de configur
 ## 💡 Objetivo
 
 Projeto desenvolvido para prática de construção de APIs REST, utilizando boas práticas e ferramentas modernas do ecossistema Node.js.
+
+## 🚀 Deploy da API
+
+[![Deploy with Render](https://img.shields.io/badge/Render-Live_Demo-430098?style=for-the-badge&logo=render&logoColor=white)](https://blogpessoal-zyr8.onrender.com/swagger)
